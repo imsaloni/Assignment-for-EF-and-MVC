@@ -1,3 +1,5 @@
+create table BusInfo(BusId int Not Null Primary key, BoardingPoint nchar(10) Not Null, TravelDate datetime Not Null, Amount Float Not Null,Rating int Not Null);
+
 insert into BusInfo(BusId, BoardingPoint, TravelDate, Amount,Rating)
     values(1,'BGL',18-06-2017,400.65,2);
 	insert into BusInfo(BusId, BoardingPoint, TravelDate, Amount,Rating)
@@ -12,3 +14,5 @@ insert into BusInfo(BusId, BoardingPoint, TravelDate, Amount,Rating)
     values(6,'PUN',27-03-2026,333.55,3);
 insert into BusInfo(BusId, BoardingPoint, TravelDate, Amount,Rating)
     values(7,'MUM',06-11-2016,510.00,4);
+
+select * from BusInfo
