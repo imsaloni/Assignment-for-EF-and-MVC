@@ -1,0 +1,2 @@
+//Query 1 
+Select TeamName1,TeamName2 from FootBallLeague3 where Status = 'Win';
