@@ -1,4 +1,4 @@
-Create procedure InsertFootBallLeague4
+Create procedure InsertFootBallLeague
 @MatchID int,
 @TeamName1 nvarchar(30),
 @TeamName2 nvarchar(30),
