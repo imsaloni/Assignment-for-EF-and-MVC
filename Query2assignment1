@@ -1,0 +1,3 @@
+//Query 2 for view
+create view Match_View as select TeamName1,TeamName2 from FootBallLeague3 where Status='Draw';
+Select * from Match_View;
